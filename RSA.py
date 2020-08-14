@@ -56,7 +56,7 @@ def isPrime(num):
     """ Miller-Rabin primality test
 
     The essentials of this algorithm, is to generate multiple bases and to test the given integer with them,
-    wether it is a prime number or not.
+    whether it is a prime number or not.
     """
     if num % 2 == 0:
         return False
@@ -111,7 +111,7 @@ def choosePublicKey(phiN):
     
     
     "e" needs to be selected the way that it fulfils the following condition: 1 < e < phi(n),
-    then we check wether e is co-prime with phiN or not.  
+    then we check whether e is co-prime with phiN or not.  
     """
 
     while True:
